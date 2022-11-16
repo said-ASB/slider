@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    width: 100%;
+}
+.nextbtn{
+    font-size: 32px;
+    background: transparent;
+    border: transparent;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: rgb(99, 157, 166);
+}
+.containerbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+.nextbtn:hover{
+    color: red;
+}
+
+.prevbtn{
+    display: none;
+    font-size: 32px;
+    background: transparent;
+    border: transparent;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: rgb(99, 157, 166);
+}
+.active:hover{
+    color: red;
+}
+.img1{
+    width: 1050px;
+    height: 390px;
+    border: 6px solid rgb(85, 213, 251) ;
+}
+.contchild h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 68px;
+    color: white;
+}
+ .active{
+    display: block;
+    font-size: 32px;
+    background: transparent;
+    border: transparent;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: rgb(99, 157, 166);
+  
+}
+.hide{
+    display: none;
+}
+
+
+
